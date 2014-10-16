@@ -34,7 +34,7 @@
  */
 
 #include <application.h>
-#include "PietteTech_Phant.h"
+#include "PietteTech_Phant/PietteTech_Phant.h"
 
 // Phant::Stream stream1("data.sparkfun.com", <<public key>>, <<private key>>);
 // view the data @ http://data.sparkfun.com/streams/G2EroylGG1tmmoX44KKn

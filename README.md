@@ -1,4 +1,3 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
   <head>
     <meta http-equiv="content-type" content="text/html;
@@ -47,8 +46,8 @@
         https://github.com/sparkfun/phant</a><br>
     </p>
     METHODS:
-    <table height="58" border="1" cellpadding="2" cellspacing="2"
-      width="904">
+    <table border="1" cellpadding="2" cellspacing="2"
+      width="100%">
       <tbody>
         <tr>
           <td valign="top">sendData(method)<br>
