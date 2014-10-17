@@ -29,6 +29,12 @@
  *	9.  The response buffer is used as a temporary buffer in addData so it's only
  *	    valid after the sendData call and before any addData calls
  *
+ *
+ * Revision History
+ *
+ *    0.2   Initial commit
+ *    0.3   Changed addData to return bytes added to _params buffer instead of '1' on success
+ *
  */
 
 #include "PietteTech_Phant.h"
