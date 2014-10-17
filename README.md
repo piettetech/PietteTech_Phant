@@ -59,7 +59,8 @@
         <tr>
           <td valign="top">addData(name, value)<br>
           </td>
-          <td valign="top">adds a data=value pair to the stream.&nbsp;
+          <td valign="top">adds a data=value pair to the stream, returns the
+            number of bytes added or '0' on error.&nbsp;
             After you have added all data send the stream using sendData<br>
           </td>
         </tr>

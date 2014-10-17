@@ -85,9 +85,10 @@ int Phant::Stream::begin(){
 // returns 1=success, 0=failure - no room in buffer
 int Phant::Stream::addBuf() {
     int _len = strlen(_params);
-    if (strlen(_response) + _len > (sizeof(_params) - 1)) return 0;
+    int _size = strlen(_response);
+    if (_size + _len > (sizeof(_params) - 1)) return 0;
     strcat(_params, _response);
-    return 1;
+    return _size;
 }
 
 //	add(field, string)
