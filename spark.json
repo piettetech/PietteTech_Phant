@@ -1,6 +1,6 @@
 {
     "name": "PietteTech_Phant",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "author": "Scott Piette, Piette Technologies LTD (scott.piette@gmail.com)",
     "license": "GPL v3 (http://www.gnu.org/licenses/gpl.html)",
     "description": "Phant database library for Spark"
