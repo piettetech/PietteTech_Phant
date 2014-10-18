@@ -57,7 +57,7 @@
           </td>
         </tr>
         <tr>
-          <td valign="top">addData(name, value)<br>
+          <td valign="top">add(name, value)<br>
           </td>
           <td valign="top">adds a data=value pair to the stream, returns the
             number of bytes added or '0' on error.&nbsp;
